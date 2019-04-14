@@ -37,7 +37,7 @@
 000_Minimum Deterioration Cell No.,Min Det Cell No.,0x220105,ae,0,96,,7E4
 000_Normal Charge Port,J1772 Plug,0x220101,{j:5},0,1,,7E4
 000_Operating Time,OpTime,0x220101,((au<24)+(av<16)+(aw<8)+ax)/3600,0,1000000,hours,7E4
-000_Rapid Charge Port,Chademo Plug,0x220101,{j:6},0,1,,7E4
+000_Rapid Charge Port,CCS Plug,0x220101,{j:6},0,1,,7E4
 000_State of Charge BMS,SOC BMS,0x220101,e/2,0,100,%,7E4
 000_State of Charge Display,SOC Display,0x220105,af/2,0,100,%,7E4
 000_State of Health,SOH,0x220105,((z<8)+aa)/10,0,100,%,7E4
